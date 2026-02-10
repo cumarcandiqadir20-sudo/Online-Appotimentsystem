@@ -1,0 +1,350 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: linear-gradient(135deg,#f4f7fb,#e9f0ff);
+  color:#333;
+}
+
+/* ===== NAVBAR ===== */
+nav{
+  background:#0b3c5d;
+  color:#fff;
+  padding:15px 40px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+nav h2{
+  font-size:22px;
+  letter-spacing:1px;
+}
+
+nav ul{
+  list-style:none;
+  display:flex;
+}
+
+nav ul li{
+  margin-left:25px;
+}
+
+nav ul li a{
+  color:#fff;
+  text-decoration:none;
+  font-weight:500;
+  transition:0.3s;
+}
+
+nav ul li a:hover{
+  color:#ffd700;
+}
+
+/* ===== HERO ===== */
+.hero{
+  padding:90px 20px;
+  text-align:center;
+  background: linear-gradient(rgba(11,60,93,.8),rgba(11,60,93,.8)),
+              url("https://images.unsplash.com/photo-1523050854058-8df90110c9f1") center/cover;
+  color:#fff;
+}
+
+.hero h1{
+  font-size:42px;
+  margin-bottom:15px;
+}
+
+.hero p{
+  font-size:18px;
+  opacity:.9;
+}
+
+/* ===== CONTENT ===== */
+.content{
+  max-width:900px;
+  margin:50px auto;
+  background:#fff;
+  padding:40px;
+  border-radius:12px;
+  box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.content h1{
+  text-align:center;
+  margin-bottom:25px;
+  color:#0b3c5d;
+}
+
+/* ===== FORM ===== */
+form label{
+  display:block;
+  margin-top:15px;
+  font-weight:600;
+}
+
+form input,
+form select{
+  width:100%;
+  padding:12px;
+  margin-top:6px;
+  border:1px solid #ccc;
+  border-radius:8px;
+  font-size:15px;
+  transition:0.3s;
+}
+
+form input:focus,
+form select:focus{
+  border-color:#0b3c5d;
+  outline:none;
+  box-shadow:0 0 0 2px rgba(11,60,93,.15);
+}
+
+/* File upload */
+input[type="file"]{
+  background:#f9f9f9;
+  padding:10px;
+}
+
+/* Button */
+form button{
+  margin-top:25px;
+  width:100%;
+  background:#0b3c5d;
+  color:#fff;
+  border:none;
+  padding:14px;
+  font-size:16px;
+  font-weight:600;
+  border-radius:30px;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+form button:hover{
+  background:#06283d;
+  transform:translateY(-2px);
+}
+
+/* ===== LISTS ===== */
+.content ul{
+  list-style:none;
+  padding-left:0;
+}
+
+.content ul li{
+  background:#f4f7fb;
+  padding:12px;
+  margin-bottom:10px;
+  border-left:5px solid #0b3c5d;
+  border-radius:6px;
+}
+
+/* ===== FOOTER ===== */
+footer{
+  margin-top:60px;
+  background:#0b3c5d;
+  color:#fff;
+  text-align:center;
+  padding:15px;
+  font-size:14px;
+}
+
+@media(max-width:768px){
+  nav{
+    flex-direction:column;
+    text-align:center;
+  }
+
+  nav ul{
+    margin-top:10px;
+    flex-wrap:wrap;
+    justify-content:center;
+  }
+
+  nav ul li{
+    margin:10px;
+  }
+
+  .hero h1{
+    font-size:30px;
+  }
+}*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: linear-gradient(135deg,#f4f7fb,#e9f0ff);
+  color:#333;
+}
+
+
+nav{
+  background:#0b3c5d;
+  color:#fff;
+  padding:15px 40px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+nav h2{
+  font-size:22px;
+  letter-spacing:1px;
+}
+
+nav ul{
+  list-style:none;
+  display:flex;
+}
+
+nav ul li{
+  margin-left:25px;
+}
+
+nav ul li a{
+  color:#fff;
+  text-decoration:none;
+  font-weight:500;
+  transition:0.3s;
+}
+
+nav ul li a:hover{
+  color:#ffd700;
+}
+
+.hero{
+  padding:90px 20px;
+  text-align:center;
+  background: linear-gradient(rgba(11,60,93,.8),rgba(11,60,93,.8)),
+              url("https://images.unsplash.com/photo-1523050854058-8df90110c9f1") center/cover;
+  color:#fff;
+}
+
+.hero h1{
+  font-size:42px;
+  margin-bottom:15px;
+}
+
+.hero p{
+  font-size:18px;
+  opacity:.9;
+}
+
+
+.content{
+  max-width:900px;
+  margin:50px auto;
+  background:#fff;
+  padding:40px;
+  border-radius:12px;
+  box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.content h1{
+  text-align:center;
+  margin-bottom:25px;
+  color:#0b3c5d;
+}
+
+
+form label{
+  display:block;
+  margin-top:15px;
+  font-weight:600;
+}
+
+form input,
+form select{
+  width:100%;
+  padding:12px;
+  margin-top:6px;
+  border:1px solid #ccc;
+  border-radius:8px;
+  font-size:15px;
+  transition:0.3s;
+}
+
+form input:focus,
+form select:focus{
+  border-color:#0b3c5d;
+  outline:none;
+  box-shadow:0 0 0 2px rgba(11,60,93,.15);
+}
+
+
+input[type="file"]{
+  background:#f9f9f9;
+  padding:10px;
+}
+
+form button{
+  margin-top:25px;
+  width:100%;
+  background:#0b3c5d;
+  color:#fff;
+  border:none;
+  padding:14px;
+  font-size:16px;
+  font-weight:600;
+  border-radius:30px;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+form button:hover{
+  background:#06283d;
+  transform:translateY(-2px);
+}
+
+
+.content ul{
+  list-style:none;
+  padding-left:0;
+}
+
+.content ul li{
+  background:#f4f7fb;
+  padding:12px;
+  margin-bottom:10px;
+  border-left:5px solid #0b3c5d;
+  border-radius:6px;
+}
+
+
+footer{
+  margin-top:60px;
+  background:#0b3c5d;
+  color:#fff;
+  text-align:center;
+  padding:15px;
+  font-size:14px;
+}
+
+@media(max-width:768px){}
+  nav{
+    flex-direction:column;
+    text-align:center;
+  }
+
+  nav ul{
+    margin-top:10px;
+    flex-wrap:wrap;
+    justify-content:center;
+  }
+
+  nav ul li{
+    margin:10px;
+  }
+
+  .hero h1{
+    font-size:30px;
+  }
